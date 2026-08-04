@@ -8,7 +8,7 @@ else
   DIR=$1
 fi
 
-ALLOY_JAR=~/code/org.alloytools.alloy/org.alloytools.alloy.dist/target/org.alloytools.alloy.dist.jar
+ALLOY_JAR="$SCRIPT_DIR/org.alloytools.alloy/org.alloytools.alloy.dist/target/org.alloytools.alloy.dist.jar"
 OUTPUT=results.csv
 echo "test,expected,result" >$OUTPUT
 for TEST in $(ls $DIR/*.als); do
