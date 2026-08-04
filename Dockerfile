@@ -39,4 +39,18 @@ COPY --from=download --chown=proof:proof /home/proof/agda-dodo /home/proof/agda-
 COPY --from=download --chown=proof:proof /home/proof/agda-burrow /home/proof/agda-burrow
 COPY --from=download --chown=proof:proof /home/proof/ptx-proofs /home/proof/ptx-proofs
 
-WORKDIR /home/proof/ptx-proofs
+# Alloy stuff
+USER root
+
+RUN apk add --no-cache openjdk17-jdk
+
+RUN apk add --no-cache bash
+
+USER proof
+
+COPY --chown=proof:proof ./alloy /home/proof/alloy
+
+WORKDIR /home/proof/
+
+CMD ["/bin/bash"]
+
