@@ -1,0 +1,1308 @@
+test,suite,a100,h100,gh200,gb10
+two_2w_TB_0_1_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+two_2w_TB_0_1_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+two_2w_TB_0_1_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+two_2w_TB_0_1_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+two_2w_TB_0_1_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+two_2w_TB_0_1_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+two_2w_TB_0_1_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+two_2w_TB_0_1_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,not seen
+two_2w_TB_0_1_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+two_2w_TB_0_1_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+two_2w_TB_0_1_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+two_2w_TB_0_1_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,seen,seen,seen,not seen
+two_2w_TB_0_1_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,seen,seen,seen,not seen
+two_2w_TB_0_1_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+two_2w_TB_0_1_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+two_2w_TB_0_1_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,seen
+two_2w_TB_01_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_BLOCK_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+two_2w_TB_01_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,seen,seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,seen,seen,not seen,not seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,seen,seen,seen,not seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,seen
+three_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,not seen
+three_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,not seen
+three_2w_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,seen,seen,seen,not seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,seen,seen,seen,not seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,seen,seen,seen,not seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,seen,seen,seen,not seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,seen
+three_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,not seen
+three_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,not seen
+three_2w_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,seen,seen,seen,not seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,seen,seen,seen,not seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,seen,seen,seen,not seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,seen,seen,seen,not seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,seen
+three_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,not seen
+three_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,seen,seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,seen,seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,seen,seen,seen,not seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,seen,seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,seen
+three_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,seen
+three_2w_TB_012_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,not seen,not seen,not seen,not seen
+three_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,not seen,not seen,not seen,not seen
+counterexample_TB_012_3_SCOPE_SYSTEM_NO_FENCE_DEFAULT,core,untested,untested,untested,untested
+counterexample_TB_012_3_SCOPE_DEVICE_NO_FENCE_DEFAULT,core,untested,untested,untested,untested
+iriw_TB_0_1_2_3_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_0_1_2_3_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_1_2_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_1_2_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_1_2_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_1_2_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_1_2_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_1_2_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_1_2_3_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_0_1_2_3_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+iriw_TB_0_1_2_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_1_2_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_1_2_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_1_2_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,not seen,seen
+iriw_TB_0_1_2_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,seen,seen,not seen,seen
+iriw_TB_0_1_2_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_2_3_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_01_2_3_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_2_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_01_2_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_01_2_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_01_2_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_2_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_2_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_2_3_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_01_2_3_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+iriw_TB_01_2_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_2_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_2_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_2_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,not seen,seen
+iriw_TB_01_2_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_2_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_23_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_01_23_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_23_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_01_23_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_01_23_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_01_23_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_23_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_23_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_01_23_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_01_23_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+iriw_TB_01_23_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_23_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_23_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_23_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_23_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_01_23_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_1_23_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_0_1_23_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_1_23_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_1_23_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_1_23_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_1_23_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,seen,not seen,not seen
+iriw_TB_0_1_23_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_1_23_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_1_23_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_0_1_23_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+iriw_TB_0_1_23_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_1_23_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_1_23_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_1_23_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_1_23_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,seen,seen,not seen,seen
+iriw_TB_0_1_23_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_1_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_02_13_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_2_13_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_03_1_2_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_03_1_2_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,not seen,seen
+iriw_TB_03_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,seen
+iriw_TB_03_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,seen
+iriw_TB_03_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,seen
+iriw_TB_03_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,seen,not seen,not seen,not seen
+iriw_TB_03_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_12_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_03_12_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_12_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_03_12_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_03_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_03_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_0_12_3_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_0_12_3_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+iriw_TB_0_12_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_12_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_12_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+iriw_TB_0_12_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,not seen,seen
+iriw_TB_0_12_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_0_12_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0_123_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_012_3_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_012_3_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_012_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_012_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_012_3_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_012_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_012_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_012_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_012_3_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_012_3_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+iriw_TB_012_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_012_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_012_3_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+iriw_TB_012_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,not seen,seen
+iriw_TB_012_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,seen,seen,seen,not seen
+iriw_TB_012_3_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_023_1_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_023_1_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_023_1_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_023_1_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_023_1_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+iriw_TB_023_1_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_023_1_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_023_1_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_023_1_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+iriw_TB_023_1_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+iriw_TB_023_1_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+iriw_TB_023_1_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,seen,seen,seen,seen
+iriw_TB_023_1_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+iriw_TB_023_1_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_023_1_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,seen,not seen,not seen,not seen
+iriw_TB_023_1_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_013_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_3_FENCE,core,not seen,not seen,not seen,not seen
+iriw_TB_0123_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,seen,seen,seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,seen,seen,not seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,seen,seen,not seen,seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,seen,seen,not seen,not seen
+isa2_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,seen,seen,seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,seen,seen,seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,seen,seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,seen,seen,seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,seen,seen,not seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,seen,seen,not seen,seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,seen,seen,not seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,seen,seen,seen,seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,seen,seen,seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+isa2_TB_1_02_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+isa2_TB_1_02_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,seen,seen,seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,seen,not seen,not seen
+isa2_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_1_FENCE,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_0_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+isa2_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_2_FENCE,core,not seen,not seen,not seen,not seen
+paper_example1_TB_0_1_2_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_DISALLOWED,core,not seen,not seen,not seen,not seen
+paper_example2_TB_0_1_2_3_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,not seen
+paper_example2_TB_0_1_2_3_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_DISALLOWED,core,not seen,not seen,not seen,not seen
+rwc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,seen,seen,not seen,not seen
+rwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,seen,seen,not seen,not seen
+rwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_LOAD_SC,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,seen,seen,seen,seen
+rwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_DEVICE_NO_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_DEVICE_NO_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,seen,seen,not seen,not seen
+rwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,not seen
+rwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_NO_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_NO_FENCE_LOAD_SC,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,seen,seen,seen,seen
+rwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,seen,seen,seen,seen
+rwc_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_NO_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_NO_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_NO_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_NO_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_DEVICE_NO_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_DEVICE_NO_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,not seen
+rwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,not seen
+rwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,seen,seen,not seen,not seen
+rwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,seen,not seen,not seen,not seen
+rwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_BLOCK_NO_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_BLOCK_NO_FENCE_LOAD_SC,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,seen,seen,seen,seen
+rwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,seen,seen,seen,not seen
+rwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,seen,seen,not seen,not seen
+rwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,seen,seen,not seen,seen
+rwc_TB_012_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_NO_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_NO_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_NO_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_NO_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_STORE_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_LOAD_SC,core,not seen,not seen,not seen,not seen
+rwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+wrc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+wrc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+wrc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+wrc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+wrc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+wrc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,not seen,not seen,seen
+wrc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wrc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrc_TB_01_2_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrc_TB_01_2_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+wrc_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+wrc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+wrc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+wrc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+wrc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+wrc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,not seen,seen
+wrc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,seen,not seen
+wrc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrc_TB_1_02_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrc_TB_1_02_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wrw_2w_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,seen,not seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,seen,not seen
+wrw_2w_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,seen,seen,seen,not seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELEASE,core,seen,seen,seen,seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,seen,seen,seen,not seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,not seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,seen,seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_NO_FENCE_ACQUIRE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_NO_FENCE_RELEASE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wrw_2w_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wwc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_ACQ_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_REL_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_REL_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,seen,seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wwc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,seen,seen,seen,seen
+wwc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_ACQ_ACQ,core,seen,seen,seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_REL_ACQ,core,seen,seen,seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_REL_REL,core,seen,seen,seen,seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,seen,seen,seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,seen,seen,seen,seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,seen,seen,seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_NO_FENCE_ACQ_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_NO_FENCE_REL_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_NO_FENCE_REL_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,seen,seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_NO_FENCE_ACQ_ACQ,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_NO_FENCE_REL_ACQ,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_NO_FENCE_REL_REL,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,seen,seen,seen,not seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,seen,seen,seen,not seen
+wwc_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_NO_FENCE_ACQ_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_NO_FENCE_REL_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_NO_FENCE_REL_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_NO_FENCE_ACQ_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_NO_FENCE_REL_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_NO_FENCE_REL_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wwc_TB_1_02_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_NO_FENCE_ACQ_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_NO_FENCE_REL_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_NO_FENCE_REL_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+wwc_TB_1_02_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,seen,seen,seen,seen
+wwc_TB_1_02_SCOPE_BLOCK_NO_FENCE_ACQ_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_NO_FENCE_REL_ACQ,core,seen,seen,seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_NO_FENCE_REL_REL,core,seen,seen,seen,seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,seen,seen,seen,seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,seen,seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,seen,seen,seen,not seen
+wwc_TB_012_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_NO_FENCE_ACQ_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_NO_FENCE_REL_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_NO_FENCE_REL_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_NO_FENCE_ACQ_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_NO_FENCE_REL_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_NO_FENCE_REL_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_BOTH_FENCE,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_1_FENCE_REL,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_ACQ,core,not seen,not seen,not seen,not seen
+wwc_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_THREAD_2_FENCE_REL,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,not seen
+z6_3_TB_0_1_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,seen,seen,not seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,seen,seen,seen,not seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,seen,seen,seen,not seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,seen,seen,not seen,not seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,seen,seen,seen,not seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,seen
+z6_3_TB_0_1_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,seen,seen,not seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,seen,seen,seen,not seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,seen
+z6_3_TB_01_2_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,not seen
+z6_3_TB_0_12_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,not seen
+z6_3_TB_0_12_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,seen,seen,seen,not seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,seen,seen,seen,not seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,seen,seen,seen,not seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,seen
+z6_3_TB_0_12_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,seen
+z6_3_TB_1_02_SCOPE_DEVICE_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+z6_3_TB_1_02_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_NO_FENCE_RELAXED,core,seen,seen,seen,seen
+z6_3_TB_1_02_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,seen,seen,seen,not seen
+z6_3_TB_1_02_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,seen,seen,seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_DEVICE_FENCE_SCOPE_BLOCK_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_NO_FENCE_RELAXED,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_NO_FENCE_ACQ_REL,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_DEVICE_FENCE_12,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_ALL_FENCE,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_0,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_1,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_2,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_01,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_02,core,not seen,not seen,not seen,not seen
+z6_3_TB_012_SCOPE_BLOCK_FENCE_SCOPE_BLOCK_FENCE_12,core,not seen,not seen,not seen,not seen
