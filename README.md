@@ -17,10 +17,20 @@ The sources for the Agda proofs are included in [sourcedennis/ptx-proofs](https:
 Run the Agda proofs with:
 
 ```
-docker run -it --rm beyond-the-fence agda src/Main.agda
+docker run -it --rm beyond-the-fence agda ptx-proofs/src/Main.agda
 ```
 
 ## Alloy Litmus Tests
+
+To run the Alloy litmus tests you can just run 
+```
+docker run --rm beyond-the-fence bash alloy/runlitmus.sh
+```
+
+This should take about 1-2 h, depending on your hardware. You can then inspect the output csv file:
+```
+less alloy/results.csv
+```
 
 ## CUDA Litmus Tests
 
