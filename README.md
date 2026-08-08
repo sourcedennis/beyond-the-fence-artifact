@@ -41,17 +41,17 @@ These commands should be run on a CUDA-enabled NVIDIA machine. For artifact eval
 ```
 cd hw
 ./scripts/check_env.sh
-./scripts/run_smoke.sh --machine gb10 --iterations 10
+./scripts/run_smoke.sh --official-machine gb10 --test-environments 1 --iterations-per-test 100
 ```
 
 For a broader subset of tests and comparison against the official GB10 observations:
 
 ```
-./scripts/run_key_results.sh --machine gb10 --iterations 100
+./scripts/run_key_results.sh --test-environments 10 --iterations-per-test 1000
 ./scripts/compare_results.sh \
-  --log output/gb10-key.txt \
+  --log output/key.txt \
   --official-machine gb10 \
-  --output-csv output/gb10-key-comparison.csv
+  --output-csv output/key-comparison.csv
 ```
 
 The full hardware instructions, including how to interpret results, are in [`hw/README.md`](hw/README.md).

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import csv
+import random
 import re
 import subprocess
 from pathlib import Path
@@ -59,6 +60,10 @@ def detect_arch():
 
 def safe_name(*parts):
     return "-".join(part for part in parts if part)
+
+
+def make_even(value):
+    return value if value % 2 == 0 else value + 1
 
 
 def kernel_name(test_name):
@@ -179,25 +184,30 @@ def compile_test(test, arch):
     run(cmd)
 
 
-def write_stress_params(path, iterations):
+def write_stress_params(path, iterations, environment_index=0):
+    rng = random.Random(0xC0DA + environment_index)
+    stress_line_size = rng.randint(2, 10) ** 2
+    stress_target_lines = rng.randint(1, 16)
+    testing_workgroups = rng.randint(4, 1024)
+    max_workgroups = rng.randint(testing_workgroups, 1024)
     params = {
         "testIterations": iterations,
-        "testingWorkgroups": 128,
-        "maxWorkgroups": 256,
-        "workgroupSize": 128,
-        "shufflePct": 100,
-        "barrierPct": 50,
-        "stressLineSize": 64,
-        "stressTargetLines": 8,
-        "scratchMemorySize": 16384,
-        "memStride": 4,
-        "memStressPct": 100,
-        "memStressIterations": 256,
-        "memStressPattern": 0,
-        "preStressPct": 50,
-        "preStressIterations": 32,
-        "preStressPattern": 0,
-        "stressAssignmentStrategy": 0,
+        "testingWorkgroups": testing_workgroups,
+        "maxWorkgroups": max_workgroups,
+        "workgroupSize": make_even(rng.randint(1, 256)),
+        "shufflePct": rng.randint(0, 100),
+        "barrierPct": rng.randint(0, 100),
+        "stressLineSize": stress_line_size,
+        "stressTargetLines": stress_target_lines,
+        "scratchMemorySize": 32 * stress_line_size * stress_target_lines,
+        "memStride": rng.randint(1, 7),
+        "memStressPct": rng.randint(0, 100),
+        "memStressIterations": rng.randint(0, 1024),
+        "memStressPattern": rng.randint(0, 3),
+        "preStressPct": rng.randint(0, 100),
+        "preStressIterations": rng.randint(0, 128),
+        "preStressPattern": rng.randint(0, 3),
+        "stressAssignmentStrategy": rng.randint(0, 1),
         "permuteThread": 419,
     }
     with open(path, "w") as f:

@@ -22,15 +22,16 @@ Check the environment with:
 Run a small build-and-run check:
 
 ```bash
-./scripts/run_smoke.sh --machine gb10 --iterations 10
+./scripts/run_smoke.sh --official-machine gb10 --test-environments 1 --iterations-per-test 100
 ```
 
-The script writes a log to `output/gb10-smoke.txt`.
+The script writes a log to `output/smoke.txt` and prints a comparison summary against the official results for the machine named by `--official-machine`.
 
 What to look for:
 
 - The CUDA kernels compile without `nvcc` errors.
 - The protected Figure 2 test reports `weak: 0`.
+- `Unexpected reviewer seen` should be `0`.
 - At least one relaxed or block-scoped test may report `weak` greater than zero. This is a useful sanity check, but short runs can miss weak behaviors.
 
 ## Key Results
@@ -38,18 +39,18 @@ What to look for:
 Run a small paper-focused subset:
 
 ```bash
-./scripts/run_key_results.sh --machine gb10 --iterations 100
+./scripts/run_key_results.sh --test-environments 10 --iterations-per-test 1000
 ```
 
-The script writes a log to `output/gb10-key.txt`.
+The script writes a log to `output/key.txt`.
 
 Compare that log against the archived official GB10 observations:
 
 ```bash
 ./scripts/compare_results.sh \
-  --log output/gb10-key.txt \
+  --log output/key.txt \
   --official-machine gb10 \
-  --output-csv output/gb10-key-comparison.csv
+  --output-csv output/key-comparison.csv
 ```
 
 `--official-machine` must be one of `a100`, `h100`, `gh200`, or `gb10`.
@@ -58,17 +59,19 @@ What to look for:
 
 - `Unexpected reviewer seen` should be `0`. A nonzero value means the run found a weak behavior where the official run did not.
 - `Official seen but not seen in reviewer log` can be nonzero for short runs, because weak behaviors are probabilistic and some paper observations are rare.
-- Increasing `--iterations` should usually reduce missed official `seen` rows, at the cost of longer runtime.
+- Increasing `--test-environments` or `--iterations-per-test` should usually reduce missed official `seen` rows, at the cost of longer runtime.
+
+`--test-environments` controls how many distinct stress-parameter files are generated. `--iterations-per-test` controls the CUDA runner's iteration count for each test under each generated environment.
 
 ## Full Core Campaign
 
 Run the full Table 1 hardware campaign:
 
 ```bash
-./scripts/run_full_campaign.sh --machine gb10 --iterations 1000
+./scripts/run_full_campaign.sh --test-environments 2 --iterations-per-test 1000
 ```
 
-The full campaign compiles and runs the CUDA variants described by `tuning-files/`, excluding helper variants that are not part of Table 1. Runtime depends heavily on the GPU and iteration count. The paper's official campaign ran A100, H100, and GB10 for 24 hours each, and GH200 for 6 hours.
+The full campaign compiles and runs the CUDA variants described by `tuning-files/`, excluding helper variants that are not part of Table 1. Runtime depends heavily on the GPU and iteration count. On the GB10 artifact-evaluation machine, one full test environment is expected to take about 40-45 minutes, so the default command above should take about 1.5 hours. The paper's official campaign ran A100, H100, and GB10 for 24 hours each, and GH200 for 6 hours.
 
 ## Expected Results
 
