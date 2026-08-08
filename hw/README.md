@@ -63,6 +63,17 @@ What to look for:
 
 `--test-environments` controls how many distinct stress-parameter files are generated. `--iterations-per-test` controls the CUDA runner's iteration count for each test under each generated environment.
 
+If `alloy/results.csv` has also been generated, combine it with this reviewer CUDA log from the artifact root:
+
+```bash
+python3 tools/combine_results.py \
+  --alloy-csv alloy/results.csv \
+  --hw-source hw/output/key.txt \
+  --output hw/output/combined-reviewer-key.csv
+```
+
+The combined-results script exits nonzero only if hardware observed a behavior that Alloy reports as `UNSAT`. Alloy-allowed behaviors that are not observed in a CUDA run are reported but do not fail, because weak hardware observations are probabilistic.
+
 ## Full Core Campaign
 
 Run the full Table 1 hardware campaign:

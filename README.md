@@ -24,13 +24,31 @@ docker run -it --rm beyond-the-fence agda ptx-proofs/src/Main.agda
 
 To run the Alloy litmus tests you can just run 
 ```
-docker run --rm beyond-the-fence bash alloy/runlitmus.sh
+docker run --rm \
+  -v "$PWD/alloy:/home/proof/alloy" \
+  -w /home/proof/alloy \
+  beyond-the-fence \
+  bash runlitmus.sh
 ```
 
 This should take about 1-2 h, depending on your hardware. You can then inspect the output csv file:
 ```
 less alloy/results.csv
 ```
+
+## Combined Alloy/CUDA Results
+
+After running the Alloy litmus tests, combine the Alloy model results with the bundled official GB10 hardware observations:
+
+```
+python3 tools/combine_results.py \
+  --alloy-csv alloy/results.csv \
+  --hw-source official \
+  --official-machine gb10 \
+  --output hw/output/combined-official-gb10.csv
+```
+
+The script writes a combined CSV and prints a mismatch summary. It exits nonzero only if hardware observed a weak behavior that Alloy reports as `UNSAT`. Alloy-allowed behaviors that are not observed in hardware are reported but do not fail, because weak hardware observations are probabilistic.
 
 ## CUDA Litmus Tests
 
@@ -52,6 +70,11 @@ For a broader subset of tests and comparison against the official GB10 observati
   --log output/key.txt \
   --official-machine gb10 \
   --output-csv output/key-comparison.csv
+cd ..
+python3 tools/combine_results.py \
+  --alloy-csv alloy/results.csv \
+  --hw-source hw/output/key.txt \
+  --output hw/output/combined-reviewer-key.csv
 ```
 
 The full hardware instructions, including how to interpret results, are in [`hw/README.md`](hw/README.md).
