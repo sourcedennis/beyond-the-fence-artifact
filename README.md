@@ -17,8 +17,24 @@ The sources for the Agda proofs are included in [sourcedennis/ptx-proofs](https:
 Run the Agda proofs with:
 
 ```
-docker run -it --rm beyond-the-fence agda ptx-proofs/src/Main.agda
+docker run --rm \
+  -w /home/proof/ptx-proofs \
+  beyond-the-fence \
+  agda src/Main.agda --safe
 ```
+
+Alternatively, they can be rendered to HTML with:
+
+```
+mkdir html
+docker run --rm \
+  -w /home/proof/ptx-proofs \
+  -v "$PWD/html:/home/proof/ptx-proofs/html" \
+  beyond-the-fence \
+  agda --html --html-dir=html src/Main.agda
+```
+
+The HTML file `html/Main.html` links the proofs together. The proof in `html/ProofSplit.html` is our key result, showing the leading fence splitting on PTX threads, of which `html/ProofSplit.Consistent.html` contains the most interesting proof fragments.
 
 ## Alloy Litmus Tests
 
