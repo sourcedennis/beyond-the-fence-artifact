@@ -4,7 +4,7 @@ FROM sourcedennis/agda-mini:2.8.0 AS download
 USER root
 
 RUN apk upgrade --no-cache &&\
-    apk add --no-cache git openssh ca-certificates &&\
+    apk add --no-cache git openssh ca-certificates curl &&\
     update-ca-certificates
 
 USER proof
@@ -26,6 +26,9 @@ RUN git clone --depth 1 https://github.com/sourcedennis/ptx-proofs &&\
     cd ptx-proofs &&\
     rm -rf .git*
 
+# Download pre-built Alloy v6.2.0 JAR
+RUN curl -LO https://github.com/AlloyTools/org.alloytools.alloy/releases/download/v6.2.0/org.alloytools.alloy.dist.jar
+
 
 FROM sourcedennis/agda-mini:2.8.0
 
@@ -38,19 +41,13 @@ COPY --from=download --chown=proof:proof /home/proof/agda-stdlib-2.3 /home/proof
 COPY --from=download --chown=proof:proof /home/proof/agda-dodo /home/proof/agda-dodo
 COPY --from=download --chown=proof:proof /home/proof/agda-burrow /home/proof/agda-burrow
 COPY --from=download --chown=proof:proof /home/proof/ptx-proofs /home/proof/ptx-proofs
+COPY --from=download --chown=proof:proof /home/proof/org.alloytools.alloy.dist.jar /home/proof/org.alloytools.alloy.dist.jar
 
 # Alloy stuff
 USER root
-
-RUN apk add --no-cache openjdk17-jdk
-
-RUN apk add --no-cache bash
-
+RUN apk add --no-cache openjdk17-jre bash
 USER proof
-
-COPY --chown=proof:proof ./alloy /home/proof/alloy
 
 WORKDIR /home/proof/
 
 CMD ["/bin/bash"]
-

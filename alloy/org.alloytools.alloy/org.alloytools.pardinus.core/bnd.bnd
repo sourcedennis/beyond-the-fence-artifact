@@ -1,9 +1,0 @@
--buildpath: \
-	slf4j.api,\
-	org.sat4j.maxsat,\
-	org.sat4j.pb,\
-	org.sat4j.core,\
-	aQute.libg
-
-Export-Package kodkod.*
--nojunit true
