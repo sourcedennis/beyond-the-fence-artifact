@@ -1,6 +1,8 @@
 #include <iostream>
 #include <set>
 #include <chrono>
+#include <cstdint>
+#include <cstdlib>
 #include <iomanip>
 #include <unistd.h>
 #include <cuda_runtime.h>
@@ -33,6 +35,13 @@ typedef struct {
   int stressAssignmentStrategy;
   int permuteThread;
 } StressParams;
+
+void checkCuda(cudaError_t status, const char* operation) {
+  if (status != cudaSuccess) {
+    std::cerr << operation << " failed: " << cudaGetErrorString(status) << "\n";
+    exit(1);
+  }
+}
 
 int parseTestParamsFile(const char* filename, TestParams* config) {
   FILE* file = fopen(filename, "r");
@@ -176,11 +185,11 @@ void setStaticKernelParams(KernelParams* h_kernelParams, StressParams stressPara
   h_kernelParams->mem_offset = stressParams.memStride;
 }
 
-int total_behaviors(TestResults * results) {
-  return results->res0 + results->res1 + results->res2 + results->res3 + 
-  results->res4 + results->res5 + results->res6 + results->res7 + 
-  results->res8 + results->res9 + results->res10 + results->res11 + 
-  results->res12 + results->res13 + results->res14 + results->res15 + 
+uint64_t total_behaviors(TestResults * results) {
+  return static_cast<uint64_t>(results->res0) + results->res1 + results->res2 + results->res3 +
+  results->res4 + results->res5 + results->res6 + results->res7 +
+  results->res8 + results->res9 + results->res10 + results->res11 +
+  results->res12 + results->res13 + results->res14 + results->res15 +
   results->weak + results->other;
 }
 
@@ -190,81 +199,85 @@ void run(StressParams stressParams, TestParams testParams, bool print_results) {
 
   int testLocSize = testingThreads * testParams.numMemLocations * stressParams.memStride * sizeof(uint);
   d_atomic_uint* testLocations;
-  cudaMalloc(&testLocations, testLocSize);
+  checkCuda(cudaMalloc(&testLocations, testLocSize), "cudaMalloc(testLocations)");
 
   int readResultsSize = sizeof(ReadResults) * testingThreads;
   ReadResults* readResults;
-  cudaMalloc(&readResults, readResultsSize);
+  checkCuda(cudaMalloc(&readResults, readResultsSize), "cudaMalloc(readResults)");
 
   TestResults* h_testResults = (TestResults*)malloc(sizeof(TestResults));
   TestResults* d_testResults;
-  cudaMalloc(&d_testResults, sizeof(TestResults));
+  checkCuda(cudaMalloc(&d_testResults, sizeof(TestResults)), "cudaMalloc(d_testResults)");
 
   int shuffledWorkgroupsSize = stressParams.maxWorkgroups * sizeof(uint);
   uint* h_shuffledWorkgroups = (uint*)malloc(shuffledWorkgroupsSize);
   uint* d_shuffledWorkgroups;
-  cudaMalloc(&d_shuffledWorkgroups, shuffledWorkgroupsSize);
+  checkCuda(cudaMalloc(&d_shuffledWorkgroups, shuffledWorkgroupsSize), "cudaMalloc(d_shuffledWorkgroups)");
 
   int barrierSize = sizeof(uint);
   cuda::atomic<uint, cuda::thread_scope_device>* barrier;
-  cudaMalloc(&barrier, barrierSize);
+  checkCuda(cudaMalloc(&barrier, barrierSize), "cudaMalloc(barrier)");
 
   int scratchpadSize = stressParams.scratchMemorySize * sizeof(uint);
   uint* scratchpad;
-  cudaMalloc(&scratchpad, scratchpadSize);
+  checkCuda(cudaMalloc(&scratchpad, scratchpadSize), "cudaMalloc(scratchpad)");
 
   int scratchLocationsSize = stressParams.maxWorkgroups * sizeof(uint);
   uint* h_scratchLocations = (uint*)malloc(scratchLocationsSize);
   uint* d_scratchLocations;
-  cudaMalloc(&d_scratchLocations, scratchLocationsSize);
+  checkCuda(cudaMalloc(&d_scratchLocations, scratchLocationsSize), "cudaMalloc(d_scratchLocations)");
 
   KernelParams* h_kernelParams = (KernelParams*)malloc(sizeof(KernelParams));
   KernelParams* d_kernelParams;
-  cudaMalloc(&d_kernelParams, sizeof(KernelParams));
+  checkCuda(cudaMalloc(&d_kernelParams, sizeof(KernelParams)), "cudaMalloc(d_kernelParams)");
   setStaticKernelParams(h_kernelParams, stressParams, testParams);
 
   int testInstancesSize = sizeof(TestInstance) * testingThreads;
   TestInstance* h_testInstances = (TestInstance*)malloc(testInstancesSize);
   TestInstance* d_testInstances;
-  cudaMalloc(&d_testInstances, testInstancesSize);
+  checkCuda(cudaMalloc(&d_testInstances, testInstancesSize), "cudaMalloc(d_testInstances)");
 
   int weakSize = sizeof(bool) * testingThreads;
   bool* h_weak = (bool*)malloc(weakSize);
   bool* d_weak;
-  cudaMalloc(&d_weak, weakSize);
+  checkCuda(cudaMalloc(&d_weak, weakSize), "cudaMalloc(d_weak)");
 
   // run iterations
   std::chrono::time_point<std::chrono::system_clock> start, end;
   start = std::chrono::system_clock::now();
-  int weakBehaviors = 0;
-  int totalBehaviors = 0;
+  uint64_t weakBehaviors = 0;
+  uint64_t totalBehaviors = 0;
 
   for (int i = 0; i < stressParams.testIterations; i++) {
     int numWorkgroups = setBetween(stressParams.testingWorkgroups, stressParams.maxWorkgroups);
 
     // clear memory
-    cudaMemset(testLocations, 0, testLocSize);
-    cudaMemset(d_testResults, 0, sizeof(TestResults));
-    cudaMemset(readResults, 0, readResultsSize);
-    cudaMemset(barrier, 0, barrierSize);
-    cudaMemset(scratchpad, 0, scratchpadSize);
-    cudaMemset(d_testInstances, 0, testInstancesSize);
-    cudaMemset(d_weak, false, weakSize);
+    checkCuda(cudaMemset(testLocations, 0, testLocSize), "cudaMemset(testLocations)");
+    checkCuda(cudaMemset(d_testResults, 0, sizeof(TestResults)), "cudaMemset(d_testResults)");
+    checkCuda(cudaMemset(readResults, 0, readResultsSize), "cudaMemset(readResults)");
+    checkCuda(cudaMemset(barrier, 0, barrierSize), "cudaMemset(barrier)");
+    checkCuda(cudaMemset(scratchpad, 0, scratchpadSize), "cudaMemset(scratchpad)");
+    checkCuda(cudaMemset(d_testInstances, 0, testInstancesSize), "cudaMemset(d_testInstances)");
+    checkCuda(cudaMemset(d_weak, false, weakSize), "cudaMemset(d_weak)");
 
     setShuffledWorkgroups(h_shuffledWorkgroups, numWorkgroups, stressParams.shufflePct);
-    cudaMemcpy(d_shuffledWorkgroups, h_shuffledWorkgroups, shuffledWorkgroupsSize, cudaMemcpyHostToDevice);
+    checkCuda(cudaMemcpy(d_shuffledWorkgroups, h_shuffledWorkgroups, shuffledWorkgroupsSize, cudaMemcpyHostToDevice), "cudaMemcpy(d_shuffledWorkgroups)");
     setScratchLocations(h_scratchLocations, numWorkgroups, stressParams);
-    cudaMemcpy(d_scratchLocations, h_scratchLocations, scratchLocationsSize, cudaMemcpyHostToDevice);
+    checkCuda(cudaMemcpy(d_scratchLocations, h_scratchLocations, scratchLocationsSize, cudaMemcpyHostToDevice), "cudaMemcpy(d_scratchLocations)");
     setDynamicKernelParams(h_kernelParams, stressParams);
-    cudaMemcpy(d_kernelParams, h_kernelParams, sizeof(KernelParams), cudaMemcpyHostToDevice);
+    checkCuda(cudaMemcpy(d_kernelParams, h_kernelParams, sizeof(KernelParams), cudaMemcpyHostToDevice), "cudaMemcpy(d_kernelParams)");
 
     litmus_test << <numWorkgroups, stressParams.workgroupSize >> > (testLocations, readResults, d_shuffledWorkgroups, barrier, scratchpad, d_scratchLocations, d_kernelParams, d_testInstances);
+    checkCuda(cudaGetLastError(), "litmus_test launch");
+    checkCuda(cudaDeviceSynchronize(), "litmus_test synchronize");
 
     check_results << <stressParams.testingWorkgroups, stressParams.workgroupSize >> > (testLocations, readResults, d_testResults, d_kernelParams, d_weak);
+    checkCuda(cudaGetLastError(), "check_results launch");
+    checkCuda(cudaDeviceSynchronize(), "check_results synchronize");
 
-    cudaMemcpy(h_testResults, d_testResults, sizeof(TestResults), cudaMemcpyDeviceToHost);
-    cudaMemcpy(h_testInstances, d_testInstances, testInstancesSize, cudaMemcpyDeviceToHost);
-    cudaMemcpy(h_weak, d_weak, weakSize, cudaMemcpyDeviceToHost);
+    checkCuda(cudaMemcpy(h_testResults, d_testResults, sizeof(TestResults), cudaMemcpyDeviceToHost), "cudaMemcpy(h_testResults)");
+    checkCuda(cudaMemcpy(h_testInstances, d_testInstances, testInstancesSize, cudaMemcpyDeviceToHost), "cudaMemcpy(h_testInstances)");
+    checkCuda(cudaMemcpy(h_weak, d_weak, weakSize, cudaMemcpyDeviceToHost), "cudaMemcpy(h_weak)");
 
     if (print_results) {
       std::cout << "Iteration " << i << "\n";
@@ -283,14 +296,14 @@ void run(StressParams stressParams, TestParams testParams, bool print_results) {
         }
       }
     }
-    weakBehaviors += host_check_results(h_testResults, print_results);
+    weakBehaviors += static_cast<uint64_t>(host_check_results(h_testResults, print_results));
     totalBehaviors += total_behaviors(h_testResults);
   }
 
   end = std::chrono::high_resolution_clock::now();
   std::chrono::duration<float> duration = end - start;
   std::cout << "Time taken: " << duration.count() << " seconds" << std::endl;
-  std::cout << std::fixed << std::setprecision(0) << "Weak behavior rate: " << float(weakBehaviors) / duration.count() << " per second\n";
+  std::cout << std::fixed << std::setprecision(0) << "Weak behavior rate: " << static_cast<double>(weakBehaviors) / duration.count() << " per second\n";
 
   std::cout << "Total behaviors: " << totalBehaviors << "\n";
   std::cout << "Number of weak behaviors: " << weakBehaviors << "\n";
@@ -363,4 +376,3 @@ int main(int argc, char* argv[]) {
   }
   run(stressParams, testParams, print_results);
 }
-
