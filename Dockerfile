@@ -45,7 +45,7 @@ COPY --from=download --chown=proof:proof /home/proof/org.alloytools.alloy.dist.j
 
 # Alloy stuff
 USER root
-RUN apk add --no-cache openjdk17-jre bash
+RUN apk add --no-cache openjdk17-jre-headless bash
 USER proof
 
 WORKDIR /home/proof/
