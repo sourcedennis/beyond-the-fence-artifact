@@ -11,7 +11,7 @@ fi
 
 ALLOY_JAR="$HOME/org.alloytools.alloy.dist.jar"
 OUTPUT="$SCRIPT_DIR/results.csv"
-LOG="$SCRIPT_DIR/runlitmus.log"
+LOG="runlitmus.log"
 echo "test,model,result" >$OUTPUT
 for MODEL in $MODELS; do
   rm -f $DIR/ptx.als
