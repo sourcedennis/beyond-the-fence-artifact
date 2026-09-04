@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
-MODELS="original, new"
+MODELS="original new"
 
 if [[ "$1" == "" ]]; then
   DIR="$SCRIPT_DIR/litmus"
@@ -10,11 +10,12 @@ else
 fi
 
 ALLOY_JAR="$HOME/org.alloytools.alloy.dist.jar"
-OUTPUT=results.csv
+OUTPUT="$SCRIPT_DIR/results.csv"
+LOG="$SCRIPT_DIR/runlitmus.log"
 echo "test,model,result" >$OUTPUT
-for MODEL in $(MODELS); do
+for MODEL in $MODELS; do
   rm -f $DIR/ptx.als
-  ln -s "$DIR/ptx_$MODEL.als" $DIR/ptx.als"
+  ln -s "$DIR/ptx_$MODEL.als" "$DIR/ptx.als"
   for TEST in $(ls $DIR/*.als); do
     if [[ "${TEST##*/}" == "ptx.als" || "${TEST##*/}" == "util.als" || "${TEST##*/}" == "ptx_original.als" || "${TEST##*/}" == "ptx_new.als" ]]; then
       continue
@@ -22,11 +23,11 @@ for MODEL in $(MODELS); do
     echo ${TEST##*/}
     echo -n ${TEST##*/}, >>$OUTPUT
     echo -n "$MODEL," >>$OUTPUT
-    timeout 60 java -jar --enable-native-access=ALL-UNNAMED $ALLOY_JAR exec -f -o alloyout $TEST 2>&1 | tee runlitmus.log | grep -o -e "[^N]SAT" -e "UNSAT" >>$OUTPUT
+    timeout 60 java -jar --enable-native-access=ALL-UNNAMED $ALLOY_JAR exec -f -o alloyout $TEST 2>&1 | tee "$LOG" | grep -o -e "[^N]SAT" -e "UNSAT" >>$OUTPUT
     TIMEOUT_EXIT=${PIPESTATUS[0]}
     if [ "$TIMEOUT_EXIT" -eq 124 ]; then
       echo "UNSAT" >>$OUTPUT
     fi
-    cat runlitmus.log
+    cat "$LOG"
   done
 done
